@@ -1,0 +1,77 @@
+doctype html
+html(lang="eng")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Welcome to Carpbusters! The largest invasive species library on the web!
+		link(rel="stylesheet", href="<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>")
+		link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css ")
+		link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/styles.css")
+		script(src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
+	body
+
+		header(class="wrap clearfix" role="banner" itemscope itemtype="http://schema.org/WPHeader")
+			div(class="logo_title")
+				a(href="http://www.carpbusters.com"): img(src="img/fish-logo.png" width="75" height="75" alt="logo" class="logo")
+				h1(class="title") CARP#[span BUSTERS]
+
+			nav(role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement")
+				h1(class="hidden") Main Navigation
+				div(class="navicon closed"): i(class="fa fa-navicon")
+				ul(class="navmenu" id="open")
+					li: a(href="http://www.carpbusters.com") Home
+					li: a(href="http://www.carpbusters.com/info.html") Research &amp; info
+					li: a(href="http://carpbusters.com/forum/default.asp") Forums
+					li: a(href="http://www.facebook.com/Carping4conservation") Facebook
+
+		main(role="main" class="clearfix")
+
+			section(class="herounit")
+				div(class="wrap")
+					h2 Welcome to Carpbusters!
+					p Carpbusters boasts the largest invasive species library on the web, as well as the largest community dedicated to invasive species harvest!
+					div
+						a(href="http://www.facebook.com/Carping4conservation" class="button facebook-btn") ON FACEBOOK
+						a(href="http://www.carpbusters.com/info.html" class="button info-btn") LEARN MORE
+			
+			section(class="info-section")
+				div(class="clearfix wrap")
+					h1(class="hidden") What Is Carpbusters?
+
+					div(class="point")
+						h2: i(class="fa fa-book")  Massive Library of Info
+						p Carpbusters houses the largest archive of information and research regarding invasive species.
+						p If you are searching for the most in depth library dedicated to this topic, then search no further.
+						p(class="pointlink"): a(href="http://www.carpbusters.com/.html") More Info &rsaquo;&rsaquo;&rsaquo;
+
+					div(class="point")
+						h2: i(class="fa fa-comment")  Active Online Community
+						p We have a strong community dedicated to sharing the world of invasive species harveting with each other. In addition to our #[a(href="http://carpbusters.com/forum/default.asp") Forums], we also have an active social community on Facebook.
+						p Click the link below to head over to our Facebook page, give us a "Like", and introduce yourself!
+						p(class="pointlink"): a(href="http://www.faceboo.com/Carping4conservation") Our Facebook Page &rsaquo;&rsaquo;&rsaquo;
+
+			section(class="facebook-feed wrap clearfix")
+				h2 News From Our Facebook Community
+
+				//- div(class="fb-post")
+				//- 	div(class="fb-pic")
+				//- 		img(src="img/fb-image.png" alt="Facebook Post")
+				//- 	div(class="fb-body")
+				//- 		p This is some blurb from a Facebook post.
+				//- 		a(href="#") Read More...
+
+			
+
+		div(class="footer")
+			footer(role="complementary" class="clearfix wrap" itemscope itemtype="http://schema.org/WPFooter")
+
+				div(class="copyright") &copy; 2015 Carpbusters. All rights reserved.
+
+				div(class="social")
+					div(class="icon")
+						a(href="http://facebook.com/Carping4conservation" target="_blank") #[i(class="fa fa-facebook-official")]	
+
+		script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+		script(src="js/scripts.js")
+		script(src="js/fb-loader.js")
